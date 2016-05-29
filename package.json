@@ -1,10 +1,14 @@
 {
   "name": "ractive-datetime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "ractive-datetime.js",
   "keywords": [
     "ractive"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bestguy/ractive-datetime.git"
+  },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
   },
