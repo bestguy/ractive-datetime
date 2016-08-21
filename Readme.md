@@ -1,7 +1,7 @@
 # Ractive Date/Time helper
 
 A date and time format mustache helper for [Ractive](http://www.ractivejs.org/), 
-using [Moment.js](http://momentjs.com/)
+using [fecha](https://github.com/taylorhakes/fecha)
 
 ----
 
@@ -37,14 +37,9 @@ May 28th, 2016
 
 9:15AM
 
-Full format options are [here](http://momentjs.com/docs/#/displaying/format/).
+Full format options are [here](https://github.com/taylorhakes/fecha#formatting-tokens).
 
-----
+**Note: Relative dates using `fromNow` helper have been removed in version 1.x. to reduce dependency sizes.**
+If you need this, please use the older 0.1.x versions:
 
-### Relative dates:
-
-    <h2>{{fromNow(some_past_date)}}</h2>
-
-#### Outputs:
-
-7 months ago
+`npm install ractive-datetime@0.1`
