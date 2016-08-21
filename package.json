@@ -1,6 +1,6 @@
 {
   "name": "ractive-datetime",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "main": "ractive-datetime.js",
   "keywords": [
     "ractive"
@@ -13,7 +13,7 @@
     "test": "node_modules/mocha/bin/mocha"
   },
   "dependencies": {
-    "moment": "^2.11.2",
+    "fecha": "^2.2.0",
     "ractive": "^0.7.3"
   },
   "devDependencies": {
